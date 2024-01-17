@@ -3,6 +3,7 @@
 // convenience to get you started writing code faster.
 //
 
+
 export const age = (planet, actualAge) => {
   const earthYear = 31557600;
 
@@ -19,4 +20,3 @@ export const age = (planet, actualAge) => {
   const map = new Map(Object.entries(planetsTime));
   return ((actualAge / (earthYear * (map.get(planet)))).toFixed(2)*1)
 };
-console.log(age())

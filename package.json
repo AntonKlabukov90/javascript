@@ -25,9 +25,7 @@
     "prettier": "^3.0.2",
     "shelljs": "^0.8.5"
   },
-  "dependencies": {
-    "mocha": "^10.2.0"
-  },
+  "dependencies": {},
   "scripts": {
     "test": "jest ./*",
     "watch": "jest --watch ./*",
