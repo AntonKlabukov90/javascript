@@ -17,6 +17,7 @@ export const age = (planet, actualAge) => {
     'uranus': 84.016846,
     'neptune': 164.79132,
   }
-  const map = new Map(Object.entries(planetsTime));
-  return ((actualAge / (earthYear * (map.get(planet)))).toFixed(2)*1)
+  if(planetsTime[planet]){
+    return Number((actualAge / (earthYear * (planetsTime[planet]))).toFixed(2))
+  }
 };
