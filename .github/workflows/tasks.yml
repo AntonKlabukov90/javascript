@@ -13,12 +13,11 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Install dependencies
-        run: |
-          npm install
-              
-      - name: test
-        run: npm test
+      - name: npm install
+        run: npm install
 
       - name: lint
         run: npm lint
+
+      - name: test
+        run: npm test
