@@ -7,7 +7,7 @@ export const compute = (chain1, chain2) => {
   let count = 0;
 
   if (chain1.length !== chain2.length) {
-    throw new Error ('strands must be of equal length')
+    throw new Error ('strands must be of equal length');
   }
   
   else {
