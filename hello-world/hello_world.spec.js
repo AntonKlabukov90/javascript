@@ -1,8 +1,6 @@
 // @ts-check
 
-import {
-  hello,
-} from './hello_world';
+import { default as hello} from './hello_world';
 
 const DIFFERENCE_PRECISION_IN_DIGITS = 6;
 

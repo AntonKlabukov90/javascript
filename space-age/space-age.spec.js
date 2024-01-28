@@ -1,5 +1,5 @@
 
-import { age } from './space-age.js';
+import {default as age } from './space-age.js';
 
 describe('Space Age', () => {
   test('age on Earth', () => {
